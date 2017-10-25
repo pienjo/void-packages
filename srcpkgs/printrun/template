@@ -1,0 +1,22 @@
+# Template file for 'printrun'
+pkgname=printrun
+version=20150310
+revision=1
+wrksrc="Printrun-${pkgname}-${version}"
+#create_wrksrc=yes
+#only_for_archs="i686 x86_64"
+build_style=python2-module
+#configure_args=""
+#make_build_args=""
+#make_install_args=""
+#conf_files=""
+#make_dirs="/var/log/dir 0755 root root"
+hostmakedepends=""
+makedepends="python python-pyserial"
+depends="python-numpy python-pyserial python-cairo dbus wxPython pyglet"
+short_desc="Pronterface, Prconsole and printcore - 3d printing host software"
+maintainer="Martijn van Buul <martijn.van.buul@gmail.com>"
+license="GPL-3"
+homepage="https://www.pronterface.com/"
+distfiles="https://github.com/kliment/Printrun/archive/${pkgname}-${version}.tar.gz"
+checksum=6edaa533df5a590f55039b81e47f61881d2a47de07c3391d53bfb6d847f46d2e
