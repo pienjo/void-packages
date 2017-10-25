@@ -1,0 +1,22 @@
+# Template file for 'pyglet'
+pkgname=pyglet
+version=1.2.4
+revision=1
+#wrksrc=
+#create_wrksrc=yes
+#only_for_archs="i686 x86_64"
+build_style=python-module
+#configure_args=""
+#make_build_args=""
+#make_install_args=""
+#conf_files=""
+#make_dirs="/var/log/dir 0755 root root"
+hostmakedepends=""
+makedepends="python python-setuptools"
+depends=""
+short_desc="cross-platform windowing and multimedia library for Python"
+maintainer="Martijn van Buul <martijn.van.buul@gmail.com>"
+license="BSD"
+homepage="https://bitbucket.org/pyglet/pyglet/wiki/Home"
+distfiles="https://bitbucket.org/pyglet/pyglet/downloads/${pkgname}-${version}.tar.gz"
+checksum=9f62ffbbcf2b202d084bf158685e77d28b8f4f5f2738f4c5e63a947a07503445
